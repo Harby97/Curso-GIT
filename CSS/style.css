@@ -1,0 +1,33 @@
+/*Los identificadores se seleccionan con un #*/
+#Titulo{
+    color: blue;
+}
+/*Las clases se seleccionan con un .*/
+/*Cuando agregao una p al inicio elijo que todos los <p> con clase SubTitulo tengan esta caracteristica*/
+
+p.especial {
+    color: red;
+}
+
+p.texto {
+    color: green;
+}
+
+
+div p,h3 {
+    color:rgb(24, 189, 38);
+}
+
+div h2 {
+    color:brown;
+    font-size: 30px;
+}
+
+/*Aqui mi pana tenemos el selector universal y modifica todas las etiquetas
+MENOS LOS QUE YA ESTEN DEFINIDOS ANTERIORMENTE*/
+*{
+    font-size: 20px;
+    color: black;
+}
+
+
