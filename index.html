@@ -1,0 +1,152 @@
+<!--DOCTYPE html es para que el compilador vea que es html 5-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--UL es igual a lista no ordenada, li list item-->
+    <h3> Aqui se muestra un lista no ordenada </h3>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <!--OL es igual a lista ordenada, li list item-->
+    <h3> Aqui se muestra un lista ordenada </h3>
+    <ol>
+        <li value="20">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6
+            <ol>
+                <li style="list-style-type:lower-alpha"> sub elemento 1 </li>
+                <li style="list-style-type:lower-alpha"> sub elemento 2 </li>
+                <li style="list-style-type:lower-alpha"> sub elemento 3 </li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+
+    <!--Ahora vamos a trabajar tablas, tr es table row,-->
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th> Componente </th>
+                <th> Cantidad </th>
+                <th> Precio </th>
+                <th> Total </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Procesador </td>
+                <th> 1 </td>
+                <td> 10000 </td>
+                <td> 10000 </td>
+            </tr>
+            <tr>
+                <td> Tarjeta de video </td>
+                <th> 2 </td>
+                <td> 10000 </td>
+                <td> 20000 </td>
+            </tr>
+            <tr>
+                <td> Tarjeta madre </td>
+                <th> 3 </td>
+                <td> 10000 </td>
+                <td> 30000 </td>
+            </tr>
+            <tr>
+                <td> Fuente </td>
+                <th> 4 </td>
+                <td> 10000 </td>
+                <td> 40000 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> total: 100000 </td>
+
+        </tfoot>
+
+    </table>
+
+
+
+    <hr>
+    <h3> Aqui se muestra un formulario para recoger informacion </h3>
+
+
+
+    <!--Nueva etiqueta "FORM" de formulario-->
+
+    <form action="/formulario" method="post">
+        <label for="nombre"> Ingresa tu nombre porfa<label />
+            <input value="Harby" type="text" id="nombre" name="nombre" placeholder="Tu Nombre" />
+            <br>
+            <label for="comentario"> comentario </label>
+            <br>
+            <textarea cols="20" rows="7" id="comentario" name="comentario"
+                placeholder="Ingresa un comentario"> Aquí va tu comentario mi bro </textarea>
+            <br>
+            <hr>
+            <h3> Aqui se muestran algunos botones personalizados </h3>
+
+            <button type="button"><img src="recursos/radio-button.png" height="25"> Tipo boton </button>
+            <br>
+            <button type="reset"><img src="recursos/reset.png" height="25"> Tipo reset </button>
+            <br>
+            <button type="submit"><img src="recursos/enviar.png" height="25"> Tipo submit </button>
+    </form>
+    <hr>
+    <h3> Aqui se muestran algunos Headings de distinto tamaño </h3>
+
+    <h1> Esto es un Heading </h1>
+    <h2> Esto es otro Heading de subtitulo </h2>
+    <h3> Esto es otro Heading de subtitulo mas pequeno </h3>
+    <!--Los headings se deben utilizar unicamente para subtitulos-->
+    <!--ya que son utilizados por los buscadores para coinsidencias-->
+    <!--Ademas son maximo hasta H6-->
+    <h6> Este es el Heading 6 </h6>
+
+
+    <!--Donde se pone el texto?, en parrafos asi-->
+    <p> Aqui estoy agregando un texto en un parrafo </p>
+
+    <!--para separa textos se utiliza 'hr'-->
+    <hr>
+    <p> Dentro de este parrafo estoy utilizando la
+        instruccion <span style=color:blueviolet> span </span> para senalar <br> lo que deseo,
+        la funcion de esto es la de agregar caracteristicas
+    </p>
+
+    <!--Para navegar a otra pagina por medio de un link-->
+    <!-- a href="URL"> COMENTARIO </a> -->
+
+    <a target="_blank" href="http://horalegal.inm.gov.co/"> ver la hora instantanea </a>
+    <br>
+    <br>
+    <!-- Vamos a mostrar algunas imagenes con img, no es necesario cerrar-->
+    <p> Aqui una imagen de un anime bueno </p>
+    <h2> Su Nombre Demon Slayer </h2>
+    <img src="recursos/imagen1.jpg" width="200" />
+</body>
+
+</html>
