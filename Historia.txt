@@ -1,4 +1,4 @@
 Hola este es el primer ejemplo
 Este es segundo cambio
 Mi nombre es Harby
-tengo 24 años y bivo en Bogotá
+tengo 24 años y vivo en Bogotá
