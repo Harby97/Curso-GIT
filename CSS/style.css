@@ -1,3 +1,9 @@
+body{
+
+    text-align: center;
+
+}
+
 /*Los identificadores se seleccionan con un #*/
 #Titulo{
     color: blue;
@@ -27,6 +33,7 @@ div h2 {
 MENOS LOS QUE YA ESTEN DEFINIDOS ANTERIORMENTE*/
 *{
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
